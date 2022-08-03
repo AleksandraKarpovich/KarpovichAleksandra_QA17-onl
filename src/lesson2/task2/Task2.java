@@ -11,7 +11,7 @@ public class Task2 {
     }
     public static int getMinFromFour(int a, int b, int c, int d) {
         int firstPairResult = getMinFromTwo(a, b);
-        int secondPairResult = getMinFromTwo(d, b);
+        int secondPairResult = getMinFromTwo(c, d);
         return getMinFromTwo(firstPairResult, secondPairResult);
     }
     public static int getMinFromTwo(int a, int b) {
