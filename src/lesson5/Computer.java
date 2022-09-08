@@ -10,7 +10,7 @@ public class Computer {
     private static boolean hdd;
     private static int resource;
 
-   public Computer (boolean isOn, boolean cpu, boolean ram, boolean hdd, int resource){
+   public Computer (boolean isOn, boolean cpu, boolean ram, boolean hdd, int resource) {
        this.isOn = isOn;
        this.cpu = cpu;
        this.ram = ram;
