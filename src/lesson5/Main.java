@@ -22,7 +22,7 @@ package lesson5;
 public class Main {
     public static int i;
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Computer lenovo = new Computer(true,false, true, true, 15);
 
         lenovo.checkState();
